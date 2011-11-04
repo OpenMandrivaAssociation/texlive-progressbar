@@ -49,6 +49,7 @@ own.
 %doc %{_texmfdistdir}/doc/latex/progressbar/README
 %doc %{_texmfdistdir}/doc/latex/progressbar/progressbar.pdf
 %doc %{_texmfdistdir}/doc/latex/progressbar/progressbar.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
