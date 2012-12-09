@@ -50,3 +50,21 @@ own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0b2-1
++ Revision: 779619
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0b-2
++ Revision: 755126
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.0b-1
++ Revision: 719308
+- texlive-progressbar
+- texlive-progressbar
+- texlive-progressbar
+- texlive-progressbar
+
