@@ -1,11 +1,11 @@
-# revision 25431
+# revision 28753
 # category Package
 # catalog-ctan /macros/latex/contrib/progressbar
-# catalog-date 2012-02-19 15:32:47 +0100
+# catalog-date 2013-01-06 18:12:17 +0100
 # catalog-license lppl
-# catalog-version v1.0b~2
+# catalog-version v1.0b~3
 Name:		texlive-progressbar
-Version:	v1.0b2
+Version:	v1.0b3
 Release:	1
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
@@ -24,7 +24,7 @@ amounts in the form of a bar. So basically you can convert any
 number between 0 and 1 to a progressbar using the command
 \progressbar{<number>}. Also a lot of customizations are
 possible, allowing you to create an unique progressbar on your
-own.
+own. The package uses TikZ to produce its graphics.
 
 %post
     %{_sbindir}/texlive.post
@@ -50,21 +50,3 @@ own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0b2-1
-+ Revision: 779619
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0b-2
-+ Revision: 755126
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.0b-1
-+ Revision: 719308
-- texlive-progressbar
-- texlive-progressbar
-- texlive-progressbar
-- texlive-progressbar
-
