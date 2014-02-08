@@ -6,7 +6,7 @@
 # catalog-version v1.0b~2
 Name:		texlive-progressbar
 Version:	v1.0b2
-Release:	1
+Release:	2
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
