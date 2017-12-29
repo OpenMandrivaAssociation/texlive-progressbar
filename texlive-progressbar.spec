@@ -1,12 +1,6 @@
-# revision 33822
-# category Package
-# catalog-ctan /macros/latex/contrib/progressbar
-# catalog-date 2014-05-04 11:26:45 +0200
-# catalog-license lppl
-# catalog-version v1.0b~4
 Name:		texlive-progressbar
-Version:	v1.0b4
-Release:	6
+Version:	1.0b~4
+Release:	1
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
