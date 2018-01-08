@@ -1,5 +1,5 @@
 Name:		texlive-progressbar
-Version:	1.0b~4
+Version:	1.0b4
 Release:	1
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
