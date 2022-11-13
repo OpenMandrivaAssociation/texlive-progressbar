@@ -1,12 +1,12 @@
 Name:		texlive-progressbar
-Version:	1.0b4
-Release:	2
+Version:	33822
+Release:	1
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ possible, allowing you to create an unique progressbar on your
 own. The package uses TikZ to produce its graphics.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ own. The package uses TikZ to produce its graphics.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
