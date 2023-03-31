@@ -1,6 +1,6 @@
 Name:		texlive-progressbar
 Version:	33822
-Release:	1
+Release:	2
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
