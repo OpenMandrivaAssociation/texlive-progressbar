@@ -3,7 +3,7 @@ Version:	33822
 Release:	2
 Summary:	Visualize shares of total amounts in the form of a (progress-)bar
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/progressbar
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/progressbar.doc.r%{version}.tar.xz
